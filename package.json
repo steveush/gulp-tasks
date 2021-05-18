@@ -1,6 +1,6 @@
 {
   "name": "@steveush/gulp-tasks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "GPL-2.0-or-later",
   "description": "A collection of gulp tasks I use frequently.",
   "repository": "https://github.com/steveush/gulp-tasks",

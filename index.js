@@ -1,13 +1,9 @@
-const _ = require("lodash");
 const u = require("./utils");
 const tasks = require("./tasks");
 
-const registerAll = (gulp, config, force) => {
+const registerAll = (gulp, config) => {
     Object.keys(tasks).forEach((name) => {
-        if (force || _.has(config, name)){
-            // only register required tasks
-            tasks[name](gulp, name, config);
-        }
+        tasks[name](gulp, name, config);
     });
 };
 
